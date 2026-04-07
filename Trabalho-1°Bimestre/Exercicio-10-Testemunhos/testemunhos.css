@@ -1,0 +1,45 @@
+.fundo-testemunhos {
+    background-image: url('escura.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.container-depoimentos {
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pricedown', sans-serif;
+    color: #f1c40f;
+    margin-bottom: 40px;
+}
+
+.card-depoimento {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #444;
+}
+
+.foto-cliente {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #f1c40f;
+    object-fit: cover;
+}
+
+.texto-depoimento {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #ddd;
+    margin: 15px 0;
+    line-height: 1.6;
+}

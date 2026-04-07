@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('Pricedown Bl.otf');
+}
+
+
+.fundo-lancamento {
+    background-image: url('vicecitybeach.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container-countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #f1c40f;
+}
+
+.texto-animado {
+    font-family: 'Pricedown', sans-serif;
+    font-size: 2.5rem;
+    color: #f1c40f;
+    animation: pulsar 2s infinite alternate;
+}
+
+@keyframes pulsar {
+    from {
+        transform: scale(1);
+        text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    }
+    to {
+        transform: scale(1.05);
+        text-shadow: 0 0 30px rgba(241, 196, 15, 1);
+    }
+}
+
+.data-lancamento {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00adef;
+    margin-top: 20px;
+}
+
+.logo-vi {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.video-placeholder{
+    display: flex;
+    flex-direction: column; /* Coloca um embaixo do outro */
+    gap: 15px; /* Espaço entre os links */
+    margin-top: 30px;
+}
+
+.video-placeholder a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.video-placeholder a:hover {
+    color: #f1c40f;
+    border: 1px solid #f1c40f; /* Cria um contorno ao passar o mouse */
+    border-radius: 5px;
+    background-color: rgba(241, 196, 15, 0.1);
+}
