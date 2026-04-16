@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('Pricedown Bl.otf');
+}
+
+.fundo-faq {
+    background-image: url('rockstar.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.faq-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Pricedown', sans-serif;
+    color: #f1c40f;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; 
+}
+
+.faq-item[open] {
+    background-color: rgba(241, 196, 15, 0.1);
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+p {
+    margin-top: 10px;
+    color: #ccc;
+    line-height: 1.5;
+}

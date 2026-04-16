@@ -1,0 +1,43 @@
+.fundo-circuito {
+    background-image: url('circuito.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.profile-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00adef;
+    object-fit: cover;
+}
+
+.link1, .link2 {
+    background-color: #3498db;
+    color: white;
+    padding: 3px 6px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.link1:hover, .link2:hover {
+    background-color: #2980b9;
+}

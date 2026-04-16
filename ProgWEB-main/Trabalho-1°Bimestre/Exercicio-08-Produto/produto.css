@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('Pricedown Bl.otf');
+}
+
+.fundo-produto {
+    background-image: url('aco.avif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.card-produto {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    border: 1px solid #333;
+}
+
+.img-item {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Pricedown', sans-serif;
+    color: #f1c40f;
+    font-size: 2rem;
+}
+
+.preco {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2ecc71;
+}
+
+.btn-compra {
+    width: 100%;
+    padding: 15px;
+    background-color: #f1c40f;
+    color: black;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box; 
+    transition: background 0.3s;
+}
+
+.btn-compra:hover {
+    background-color: #d4ac0d;
+}
